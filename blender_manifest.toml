@@ -1,0 +1,19 @@
+schema_version = "1.0.0"
+
+id = "momentum_screencast_overlay"
+version = "1.0.0"
+name = "Momentum Screencast Overlay"
+tagline = "Keyboard & mouse overlay for educators"
+type = "add-on"
+maintainer = "Momentum Creative Technology Inc."
+website = "https://momentumcreativetech.ca/products/mocast"
+
+# License must use an SPDX identifier (with the SPDX: prefix).
+# MoCast code is GPL-3.0-or-later.
+license = ["SPDX:GPL-3.0-or-later"]
+
+tags = ["3D View", "Interface", "Education", "Workflow"]
+blender_version_min = "4.2.0"
+
+# No external Python deps. If you add any in the future, declare them here.
+dependencies = []
